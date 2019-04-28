@@ -26,7 +26,7 @@ line no %d",c+1);BEGIN DECLARE;ECHO;printf("\n");}
 %%
 void main()
 {
-yyin = fopen("source.txt","r");
+yyin = fopen("4b.txt","r");
 yylex();
 
 fclose(yyin);
