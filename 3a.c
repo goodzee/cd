@@ -11,7 +11,7 @@ FILE *fp;
 %%
 main()
 {
-yyin=fopen("3.txt","r");
+yyin=fopen("3a.txt","r");
 yylex();
 fclose(yyin);
 }
