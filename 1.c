@@ -10,7 +10,7 @@ int string=0;
 char line[100];
 int open,close;
 clrscr();
-fp=fopen("file.txt", "r");
+fp=fopen("1.txt", "r");
 if(fp==NULL)
 {
 printf("File cant be opened\n");
